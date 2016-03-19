@@ -1,0 +1,160 @@
+﻿<!DOCTYPE HTML>
+<HTML>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!--这句话解决了汉字乱码问题-->
+<HEAD>
+	<TITLE>BonjourWeb</TITLE>
+	<style type="text/css">
+table tr td, th{
+border:1px solid #000;
+}
+</style>
+</HEAD>
+<BODY>
+	<h1>我是网站大标题</h1>
+	<ul>
+		<li>
+			<a href="#标题1">我是一号导航网页</a>
+		</li>
+		<li>
+			<a href="#标题2">我是二号导航网页</a>
+		</li>
+		<li>
+			<a href="#标题3">我是三号导航网页</a>
+		</li>
+		<li>
+			<a href="#标题4">我是四号导航网页</a>
+		</li>
+	</ul>
+	<h2>
+		<a name="标题1">我是文章一级标题</a>
+	</h2>
+	<h3>我是文章二级标题</h3>
+	文章作者 &nbsp; 文章发表时间
+	<p>
+		我是一个很长很长的段落，我是一个很长很长的段落，我是一个很长很长的段落，我是一个很长很长的段落，换行
+		<br />
+		我是一个很长很长的段落，我是一个很长很长的段落，我是一个很长很长的段落，我是一个很长很长的段落,换行
+		<br />
+		<a href="http://ife.baidu.com/">我是一个超链接</a> <strong>我是粗体字</strong>
+		<br />
+		<h2>
+			<a name="标题2">另一篇文章一级标题</a>
+		</h2>
+		<h3>文章二级标题</h3>
+		文章作者 &nbsp; 文章发表时间
+		<br/>
+		我是一个很长很长的段落，我是一个很长很长的段落, 我是一个很长很长的段落，我是一个很长很长的段落，我是一个很长很长的段落，我是一个很长很长的段落，换行
+		<br />
+		我是一个很长很长的段落，我是一个很长很长的段落，我是一个很长很长的段落，我是一个很长很长的段落,换行
+		<br />
+		<a href="http://ife.baidu.com/">我是一个超链接</a> <strong>我是粗体字</strong>
+		<br />
+		<a href="http://ife.baidu.com/" target="_blank">我是一个打开新窗口的超链接 to http://ife.baidu.com/</a>
+		<br />
+		<img src="images/我是图片.jpg">
+		<a name="标题3">
+			<h2>图片</h2>
+		</a>
+		<blockquote>
+			好看的图片
+			<br />
+			<img src="images/我是图片.jpg" title="我很好看">
+			<br />
+			好看的图片
+			<br/>
+			<img src="images/我是图片.jpg" title="我很好看">
+			<br />
+			好看的图片
+			<br />
+			<img src="images/我是图片.jpg" title="我很好看">
+			<br />
+			好看的图片
+			<br/>
+			<img src="images/我是图片.jpg" title="我很好看"></blockquote>
+		<br />
+		<h2>最后一篇文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		文章作者 文章发表时间
+		<li>我是列表1</li>
+		<li>我是列表2</li>
+		<li>我是列表3</li>
+		<li>我是列表4</li>
+		<br />
+		我是一个排名列表:
+		<br />
+		这里有空格->&nbsp;
+		<-这里有空格
+			<ol>
+			<li>我是第一名</li>
+			<li>我是第二名</li>
+		</ol>
+		现在做一个css表格
+		<br />
+		给你的表格加一个border="1"，让他好看一些
+		<table>
+			<caption>我是标题caption</caption>
+			<tr>
+				<th>我是表头</th>
+				<th>我也是表头</th>
+				<th>我是表头三</th>
+			</tr>
+			<tr>
+				<td>我是表头的小尾巴</td>
+				<td>我也是表头的小尾巴</td>
+				<td>
+					<a href "#">选择</a>
+				</td>
+			</tr>
+			<tr>
+				<td>我是表头的小尾巴</td>
+				<td>我也是表头的小尾巴</td>
+				<td>
+					<a href "#">选择</a>
+				</td>
+			</tr>
+			<tr>
+				<td>我是表头的小尾巴</td>
+				<td align="center" colspan="2">我是会居中的合计</td>
+
+			</tr>
+		</table>
+		<h2>
+			<a name="标题4">这里以后是一个侧栏，这是侧栏标题</a>
+		</h2>
+		<h3>侧栏标题注册窗口标题</h3>
+		<form method="post" action="save.php">
+			请输入一个邮件地址:
+			<input type="text" name="account" value="这是一个文本输入框">
+			<p>邮箱地址请按要求格式输入</p>
+			请输入密码：
+			<input type="text" name="once" value="这是一个文本输入框">
+			请重复输入密码：
+			<input type="text" name="twice" value="这是一个文本输入框">
+			<br/>
+			密码请为6-16位英文数字
+			<br/>
+			性别：
+			<input type="checkbox" name="man" value="box1" checked="checked">
+			男
+			<input type="checkbox" name="woman" value="box2">
+			女
+城市：
+			<select name="select" id="select_1" class="xla_k">
+				<option value="北京">北京</option>
+				<option value="上海">上海</option>
+				<option value="广州">广州</option>
+			</select>
+			<input type="checkbox" name="sport" value="sport" >
+			运动
+			<input type="checkbox" name="science" value="science">
+			科学
+个人描述：
+			<textarea cols="10" rows="2">在这里输入内容...</textarea>
+			<input type="submit" name="submit" value="提交"></form>
+		版权所有© &nbsp; 联系邮件:
+		<a href =mailto:"lys_zmz@126.com"?subject="我来自百度实验室"&body="并没有什么内容">sent to: lys_zmz@126.com</a>
+	</p>
+
+</BODY>
+
+</HTML>
